@@ -1,4 +1,4 @@
-# Документация для использования API
+# Документация по использованию API
 ## Инструкция по запуску сервера
 
 1. Установить [Docker](https://docs.docker.com/engine/install/) и [Docker Compose](https://docs.docker.com/compose/install/);
