@@ -74,6 +74,9 @@ function readProductsTemplate(data, keywords) {
         if (data.paging.first != "") {
             read_products_html += "<li><a data-page='" + data.paging.first + "'>Первая страница</a></li>";
         }
+        else {
+            read_products_html += "<li><a data-page='" + data.paging.first + "'>Первая страница</a></li>";
+        }
 
         // перебор страниц
         $.each(data.paging.pages, function (key, val) {
@@ -85,6 +88,11 @@ function readProductsTemplate(data, keywords) {
         if (data.paging.last != "") {
             read_products_html += "<li><a data-page='" + data.paging.last + "'>Последняя страница</a></li>";
         }
+        else {
+            read_products_html += "<li><a data-page='" + data.paging.last + "'>Последняя страница</a></li>";
+        }
+
+
         read_products_html += "</ul>";
     }
 

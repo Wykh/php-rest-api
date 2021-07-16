@@ -1,6 +1,8 @@
 # Global
 .*.swp
 .DS_Store
+.git.old
+/doc
 
 # Application
 web/app/vendor/

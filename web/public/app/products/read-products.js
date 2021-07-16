@@ -18,13 +18,13 @@
 //     });
 //
 // });
-
+//
 // function showProductsFirstPage(){
 //     var json_url="http://localhost:8000/api/product/read_paging.php";
 //     showProducts(json_url);
 // }
-
-// функция для отображения списка товаров
+//
+// // функция для отображения списка товаров
 // function showProducts(json_url){
 //
 //     // получаем список товаров из API
